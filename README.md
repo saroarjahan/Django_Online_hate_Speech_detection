@@ -6,10 +6,18 @@ We have to create a new directory to install virtualenv . Browse that directory 
 pip install virtualenv
 virtualenv .
 Scripts\activate or scripts\activate
+Python 3.7
+
 Now we have to create another directory inside virtualenv, then we have to install django inside it. Browse that new directory via command line and install django inside it.
 
 pipenv install django /pip install django
 Copy this whole oproject inside django directory, browse the app and run python .\manage.py runserver
 
-*This project need NLP library  which i will add a rquirement.txt file soon. But u can install yourself while running the project.
-
+*This project need NLP library  which i will add a rquirement.txt file soon with version. But u can install yourself while running the project.
+pandas
+urllib
+sklearn
+inscriptis
+urllib.request
+urllib3
+re
