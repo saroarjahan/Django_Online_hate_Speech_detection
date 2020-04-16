@@ -1,0 +1,71 @@
+.container.height {
+    padding-top: 217px;
+}
+input.form-control.mr-sm-2 {
+    width: 81%;
+}
+.container.height {
+    padding-top: 58px;
+    min-height: 302px;
+    background: rgba(255, 255, 255, 0.96);
+    padding-bottom: 58px;
+    margin-top: 38px;
+}
+
+.row.pad {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+}
+.menu {
+    list-style: none;
+    display: -webkit-box;
+    margin: auto!important;
+    width: 434px;
+}
+li.Aggression, li.Attack, li.Toxicity, li.All {
+    background: #6e1313;
+    color: red;
+}
+
+li.Aggression a,li.Attack a, li.All a , li.Toxicity a{
+    color: white;
+    font-weight: bold;
+}
+
+li {
+    border: 1px solid;
+    border-radius: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 9px;
+    text-align: center;
+    margin-bottom: 11px;
+}
+
+.login {
+    min-height: 723px;
+    background: url(image/background.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2.Login {
+    text-align: center;
+    font-size: 23px;
+    font-weight: normal;
+}
+
+input.form-control.submit {
+    background: #11265f;
+    color: white;
+    border: 1px solid #11265f;
+}
+
+h5 {
+    text-transform: uppercase;
+    color: #9d0f0f;
+    text-decoration-line: underline;
+}
+

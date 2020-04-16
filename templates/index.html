@@ -1,0 +1,53 @@
+{% extends 'common.html' %}
+
+{% block body%}
+    <div class="login">
+           <div class="container height">
+				  <div class="row">
+					    <div class="col-sm-6 offset-md-3">
+					    	   <div class="menu">
+						    	   <li class="{{caggression}}"><a href="http://127.0.0.1:8000/">Aggresssion</a></li>
+						    	   <li class="{{cattack}}"><a href="http://127.0.0.1:8000/attack/">Attack</a></li>
+						    	   <li class="{{ctoxicity}}"><a href="http://127.0.0.1:8000/toxicity/">Toxicity</a></li>
+						    	   <li class="{{call}}"><a href="http://127.0.0.1:8000/allhatespeech">All Hate Speech</a></li>
+					    	   </div>
+
+
+	                            <h2 class="Login">Analysis of Hate Speech (NLP Project 12)</h2><br>
+
+                                      <form class="form-inline my-2 my-lg-0" method="GET" action="">
+                                          <input class="form-control mr-sm-2" type="text" name="q" placeholder="Enter Website Url" aria-label="Search">
+                                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" value="Search">Analyze</button>
+                                       </form>
+
+                                <!--class regi is now display none wont be visisble-->
+					    </div>
+				  </div>
+
+				    <div class="row pad">
+					    <div class="col-sm-12">
+					    	<h5>{{aggression}} {{cl_name}}</h5>
+					    	<strong>{{accuracy}}</strong> {{auc}}
+					    	<br>
+					    	<strong>{{sentence}}</strong> {{text}}
+
+                            <br>
+						    <strong>{{Liwc_neg}}</strong> {{query.negative_emotion}}
+						    <br>
+						    <strong>{{Liwc_pos}}</strong> {{query.positive_emotion}}
+
+							 
+					    </div>
+					    
+					    <div class="col-sm-4">
+ 
+					    </div>
+					    <div class="col-sm-4">
+ 
+					    </div>
+				  </div>
+			</div>
+</div>
+
+{%endblock%}
+							
