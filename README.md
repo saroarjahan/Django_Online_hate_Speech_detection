@@ -1,4 +1,5 @@
-# Django_Online_hate_Speech_detection 
+# Django web app for Online_hate_Speech_detection , it will analyze if a website if it has any hate speech inside
+# It will take the targeted website URL and will analyze
 
 
 Python 3.7
