@@ -14,10 +14,17 @@ pipenv install django /pip install django
 Copy this whole oproject inside django directory, run >> python .\manage.py runserver
 
 *This project need NLP library  which i will add a rquirement.txt file soon with version. But u can install yourself while running the project.
+
 pandas
+
 urllib
+
 sklearn
+
 inscriptis
+
 urllib.request
+
 urllib3
+
 re
