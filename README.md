@@ -13,7 +13,7 @@ Now we have to create another directory inside virtualenv, then we have to insta
 pipenv install django /pip install django
 Copy this whole oproject inside django directory, run >> python .\manage.py runserver
 
-*This project need NLP library  which i will add a rquirement.txt file soon with version. But u can install yourself while running the project.
+*This project need NLP library  which i will add a rquirement.txt file soon with version. But u can install yourself while running the project. Required nlp libraries.
 
 pandas
 
