@@ -1,4 +1,9 @@
-# Django_Online_hate_Speech_detection
+# Django_Online_hate_Speech_detection 
+
+
+Python 3.7
+
+
 Download dataset from here, https://drive.google.com/uc?id=1iHw8GxVWLlavqQpXwY6zhwLTeYdnfdHU&export=download and add it to the project.
 
 We have to create a new directory to install virtualenv . Browse that directory via command and run. separate virtual server for each project is best, it will not affect other project library.
@@ -6,7 +11,7 @@ We have to create a new directory to install virtualenv . Browse that directory 
 pip install virtualenv
 virtualenv .
 Scripts\activate or scripts\activate
-Python 3.7
+
 
 Now we have to create another directory inside virtualenv, then we have to install django inside it. Browse that new directory via command line and install django inside it.
 
